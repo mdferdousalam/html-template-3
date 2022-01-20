@@ -1,0 +1,493 @@
+.body {
+	font-size: 14px;
+}
+
+.menubar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menuitem ul {
+	display: flex;
+}
+
+.menuitem ul li {
+	list-style: none;
+}
+
+.menuitem ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 20px;
+	color: white;
+}
+
+.logo1 img {
+	padding-top: 18px;
+}
+
+.menuitem ul {
+	padding-top: 25px;
+}
+
+
+/*.menuitem>.active>a:focus {
+	 color: #50A0FF;
+	background-color:#00e0d0;
+}*/
+
+.seperator {
+	margin-top: 27px;
+	margin-bottom: 30px;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-width: 1px solid;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.carousel-indicators .active {
+	background-color: #00e0d0;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-caption a {
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.carousel-caption a {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.carousel-caption p {
+	margin-bottom: 53px;
+}
+
+
+/*======================================================
+			               hero section end here
+			========================================================*/
+
+.story {
+	margin-top: 70px;
+}
+
+.story h4 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.story p {
+	font-size: 14px;
+	margin-bottom: 34px;
+}
+
+.story img {
+	padding-left: 60px;
+	padding-right: 80px;
+	padding-bottom: 102px;
+}
+
+.story a {
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.storytext {
+	margin-bottom: 70px;
+}
+
+.videobackground {
+	position: relative;
+}
+
+.videobackground .icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.videobackground a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+/*================================================
+            story section ends here
+==================================================*/
+
+.exp1 img {
+	padding-left: 135px;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+.exp1 {
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.exp2 img {
+	padding-left: 135px;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+.exp2 {
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.exp3 img {
+	padding-left: 146px;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+.exp3 {
+	border-bottom: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.exp4 img {
+	padding-left: 135px;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+.exp4 {
+	border-right: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.exp5 img {
+	padding-left: 135px;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+.exp5 {
+	border-right: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.exp6 {
+	text-align: center;
+}
+
+.exp6 img {
+	padding-left: 135px;
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+
+.exp1 h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.exp2 h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.exp3 h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.exp4 h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.exp5 h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.exp6 h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+
+/*=================================================================================================
+						expertise section ends here
+===================================================================================================*/
+
+.team {
+	text-align: center;
+	margin-top: 71PX;
+	color: white;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.team h3 {
+	padding-top: 70px;
+}
+
+.member1 {
+	text-align: center;
+}
+
+.member2 {
+	text-align: center;
+}
+
+.member3 {
+	text-align: center;
+}
+
+.member4 {
+	text-align: center;
+}
+
+.member1 h4 {
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.member2 h4 {
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.member3 h4 {
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.member4 h4 {
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.member1 p {
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.member2 p {
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.member3 p {
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.member4 p {
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.nameborder {
+	border: 1px solid #78788b;
+}
+
+.teamback {
+	display: flex;
+	position: relative;
+}
+
+.team {
+	position: absolute;
+}
+
+.teambutton a {
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.teambutton p {
+	padding-top: 70px;
+	padding-bottom: 29px;
+}
+
+
+/*==================================================================================================
+                              team section ends here 
+=================================================================================================*/
+
+.work {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.work h3 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.work p a {
+	text-decoration: none;
+	color: #413d4b;
+}
+
+.workbutton a {
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.workbutton {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+/*===================================================================================================
+                                  work section ends here
+=====================================================================================================*/
+
+
+/*.carousel-indicators li, .carousel-indicators li.active{
+            width: 70px;
+            height: 70px;
+            background-color: #fff;
+            position: relative;
+            margin: 10px;           
+        }*/
+
+.carousel-indicators img {
+	position: absolute;
+	width: 100%;
+	border-radius: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+/*===================================================================================================
+                                  Testimonials section ends here
+=====================================================================================================*/
+
+button {
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-right: 31px;
+	padding-left: 31px;
+	background-color: #ffffff;
+	border-radius: 5%;
+}
+
+.stupid {
+	/*width: 180px;*/
+	text-align: center;
+}
+
+.stupidsquare {
+	margin-top: 14px;
+}
+
+
+/*===================================================================================================
+                                  Contact section ends here
+=====================================================================================================*/
+
+.footerbg {
+	background-image: url(img/footerbackground.png);
+	/*display: block;
+	width: 100%;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.footertext {
+	color: white;
+	padding-top: 90px;
+}
+
+.footertext ul {
+	display: flex;
+}
+
+.footertext ul li {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.footertext ul li a {
+	text-decoration: none;
+	color: white;
+	padding-right: 24px;
+}
+
+.footermenucopyright {
+	padding-top: 70px;
+	padding-left: 0px;
+	padding-bottom: 72px;
+}
+
+.footicon {
+	color: white;
+	padding-right: 4px;
+	padding-top: 25px;
+	size: 35px;
+	/*height: 55px;*/
+	/*width: 35px;*/
+}
